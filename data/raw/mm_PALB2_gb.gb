@@ -1,0 +1,842 @@
+LOCUS       NC_000073              25719 bp    DNA     linear   CON 07-FEB-2024
+DEFINITION  Mus musculus strain C57BL/6J chromosome 7, GRCm39.
+ACCESSION   NC_000073 REGION: complement(121706485..121732203)
+VERSION     NC_000073.7
+DBLINK      BioProject: PRJNA169
+            Assembly: GCF_000001635.27
+KEYWORDS    RefSeq.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 25719)
+  AUTHORS   Church,D.M., Schneider,V.A., Graves,T., Auger,K., Cunningham,F.,
+            Bouk,N., Chen,H.C., Agarwala,R., McLaren,W.M., Ritchie,G.R.,
+            Albracht,D., Kremitzki,M., Rock,S., Kotkiewicz,H., Kremitzki,C.,
+            Wollam,A., Trani,L., Fulton,L., Fulton,R., Matthews,L.,
+            Whitehead,S., Chow,W., Torrance,J., Dunn,M., Harden,G.,
+            Threadgold,G., Wood,J., Collins,J., Heath,P., Griffiths,G.,
+            Pelan,S., Grafham,D., Eichler,E.E., Weinstock,G., Mardis,E.R.,
+            Wilson,R.K., Howe,K., Flicek,P. and Hubbard,T.
+  TITLE     Modernizing reference genome assemblies
+  JOURNAL   PLoS Biol. 9 (7), e1001091 (2011)
+   PUBMED   21750661
+REFERENCE   2  (bases 1 to 25719)
+  AUTHORS   Church,D.M., Goodstadt,L., Hillier,L.W., Zody,M.C., Goldstein,S.,
+            She,X., Bult,C.J., Agarwala,R., Cherry,J.L., DiCuccio,M.,
+            Hlavina,W., Kapustin,Y., Meric,P., Maglott,D., Birtle,Z.,
+            Marques,A.C., Graves,T., Zhou,S., Teague,B., Potamousis,K.,
+            Churas,C., Place,M., Herschleb,J., Runnheim,R., Forrest,D.,
+            Amos-Landgraf,J., Schwartz,D.C., Cheng,Z., Lindblad-Toh,K.,
+            Eichler,E.E. and Ponting,C.P.
+  CONSRTM   Mouse Genome Sequencing Consortium
+  TITLE     Lineage-specific biology revealed by a finished genome assembly of
+            the mouse
+  JOURNAL   PLoS Biol. 7 (5), e1000112 (2009)
+   PUBMED   19468303
+REFERENCE   3  (bases 1 to 25719)
+  CONSRTM   Genome Reference Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUN-2020) NCBI, NIH, Bethesda, MD 20892, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM001000.3.
+            
+            On Sep 22, 2020 this sequence version replaced NC_000073.6.
+            Assembly Name: GRCm39
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Mouse Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            https://genomereference.org.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Updated annotation
+            Annotation Name             :: GCF_000001635.27-RS_2024_02
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           RefSeqFE; cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 02/01/2024
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..25719
+                     /organism="Mus musculus"
+                     /mol_type="genomic DNA"
+                     /strain="C57BL/6J"
+                     /db_xref="taxon:10090"
+                     /chromosome="7"
+     gene            1..25719
+                     /gene="Palb2"
+                     /note="partner and localizer of BRCA2; Derived by
+                     automated computational analysis using gene prediction
+                     method: BestRefSeq,Gnomon."
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     misc_RNA        join(1..261,3248..3307,3965..4058,4538..5932,8054..8587,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,22151..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 3 mRNAs, 51 ESTs, 41 long SRA
+                     reads, and 100% coverage of the annotated genomic feature
+                     by RNAseq alignments, including 14 samples with support
+                     for all annotated introns"
+                     /transcript_id="XR_869708.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     misc_RNA        join(1..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,18511..18672,19615..19731,
+                     20949..21036,22151..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 24 ESTs, 30 long SRA
+                     reads, and 100% coverage of the annotated genomic feature
+                     by RNAseq alignments, including 15 samples with support
+                     for all annotated introns"
+                     /transcript_id="XR_003946463.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     misc_RNA        join(1..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,18511..18672,19615..19731,
+                     20949..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 49 ESTs, 35 long SRA
+                     reads, and 100% coverage of the annotated genomic feature
+                     by RNAseq alignments, including 16 samples with support
+                     for all annotated introns"
+                     /transcript_id="XR_003946462.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     misc_RNA        join(1..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,21211..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 4 mRNAs, 58 ESTs, 39 long SRA
+                     reads, 2 Proteins, and 100% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 7 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_003946461.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     mRNA            join(35..261,3248..3307,9273..9344,11766..11927,
+                     15626..15711,18511..18672,19615..19731,20949..21036,
+                     22151..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant 5"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001289845.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     misc_RNA        join(35..261,3248..3307,4538..5932,8054..8724,9273..9344,
+                     11766..11927,15626..15711,18511..18672,19615..19731,
+                     20949..21036,21211..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X5"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 mRNAs, 43 ESTs, 27 long SRA
+                     reads, 1 Protein, and 99% coverage of the annotated
+                     genomic feature by RNAseq alignments, including 7 samples
+                     with support for all annotated introns"
+                     /transcript_id="XR_003946464.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     mRNA            join(35..261,3248..3307,3965..4058,4538..4843,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,22151..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant 4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001289844.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     mRNA            join(35..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,22151..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant 1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001081238.2"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     mRNA            join(35..261,3248..3307,4538..5932,8054..8724,9273..9344,
+                     11766..11927,15626..15711,18511..18672,19615..19731,
+                     20949..21036,21211..21409)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant 3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001289843.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     mRNA            join(35..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,21211..21409)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant 2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001289842.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     mRNA            join(89..261,3248..3307,4538..5932,8054..8724,9273..9344,
+                     11766..11927,15626..15711,18511..18672,19615..19731,
+                     20949..21036,22151..22299,25253..25717)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 14 ESTs, 22 long SRA reads, and
+                     99% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 11 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_011241755.4"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     CDS             join(214..261,3248..3307,9273..9344,11766..11927,
+                     15626..15711,18511..18672,19615..19731,20949..21036,
+                     22151..22299,25253..25463)
+                     /gene="Palb2"
+                     /note="isoform 5 is encoded by transcript variant 5;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="partner and localizer of BRCA2 isoform 5"
+                     /protein_id="NP_001276774.1"
+                     /db_xref="CCDS:CCDS80796.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+                     /translation="MEELSGKPLSYAEKEKLKEKLAFLKKEYSRTLARLQTETADRPA
+                     CDNLNPGNLQLVSELKNPSSSCSVDVSAMWWERAGAKEPCIVTACEDVVSLWKPLNSL
+                     QWEKVHTWHFTEVPVLQIVPVPDVYNLICVALGSLEIREIRALLCSSGDDSEKQVLLK
+                     SGDIKAMLGLTKRRLVSSTGTFCNQQIQIMTFADDGSSKDEQLLMPPDETVLTFAEVQ
+                     GTQEALLGTTTVNSIVIWNLKTGQLLKKMHIDDSYQASVCHGAYSEKGLLFVVVSQPC
+                     AKESQALGSPVFQLLVINPKTAQSVGVLLCSLPQGQAGRFLEGDVKDHVAAAVLTSGT
+                     IAIWDLLLGHCTALLPPVSDQSWSLVKWSGTDSHLLAGQKDGNIFIYRYF"
+     CDS             join(214..261,3248..3307,3965..4058,4538..4843,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,22151..22299,25253..25463)
+                     /gene="Palb2"
+                     /note="isoform 4 is encoded by transcript variant 4;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="partner and localizer of BRCA2 isoform 4"
+                     /protein_id="NP_001276773.1"
+                     /db_xref="CCDS:CCDS72035.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+                     /translation="MEELSGKPLSYAEKEKLKEKLAFLKKEYSRTLARLQRAKRAEKA
+                     KNSKKAIEDGVPQPEASSQLSHSESINKGFPCDTLQSNHLDEETGENISQILDVEPQS
+                     FNCKQGKEVLHTPRAGDIQGQLLHSTSSPDGKKEQNTLPGTTKTPWEKSSVSQEKEDY
+                     FDTNSLALLDFELPDEDFGLLKLEKLKSCSEKLIESPDSKNCGERLPREGNHAALEEL
+                     QRDSETEGLEEELTVPPGEAYRPGPTLRRQPGSKDLSSSIVLFTPADTAAPNDSGRPP
+                     PSLCSPAFPILGMTPALGSQAAGETLSTEAAQPCSTSQPPLLGDTNSLVNNSKQCNSS
+                     ACSPKPDTNLQASGRQGQPACDSDSGPQATPLPVESFTFRENQLCGNACLELHEHSTE
+                     QTETADRPACDNLNPGNLQLVSELKNPSSSCSVDVSAMWWERAGAKEPCIVTACEDVV
+                     SLWKPLNSLQWEKVHTWHFTEVPVLQIVPVPDVYNLICVALGSLEIREIRALLCSSGD
+                     DSEKQVLLKSGDIKAMLGLTKRRLVSSTGTFCNQQIQIMTFADDGSSKDEQLLMPPDE
+                     TVLTFAEVQGTQEALLGTTTVNSIVIWNLKTGQLLKKMHIDDSYQASVCHGAYSEKGL
+                     LFVVVSQPCAKESQALGSPVFQLLVINPKTAQSVGVLLCSLPQGQAGRFLEGDVKDHV
+                     AAAVLTSGTIAIWDLLLGHCTALLPPVSDQSWSLVKWSGTDSHLLAGQKDGNIFIYRY
+                     F"
+     CDS             join(214..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,22151..22299,25253..25463)
+                     /gene="Palb2"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="partner and localizer of BRCA2 isoform 1"
+                     /protein_id="NP_001074707.1"
+                     /db_xref="CCDS:CCDS40117.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+                     /translation="MEELSGKPLSYAEKEKLKEKLAFLKKEYSRTLARLQRAKRAEKA
+                     KNSKKAIEDGVPQPEASSQLSHSESINKGFPCDTLQSNHLDEETGENISQILDVEPQS
+                     FNCKQGKEVLHTPRAGDIQGQLLHSTSSPDGKKEQNTLPGTTKTPWEKSSVSQEKEDY
+                     FDTNSLALLGKHRKGQESISRKNSRTPVSEKTHLLSLRSQIPDPPALVTGIGEGILIP
+                     PSGKSERGIDTLVRGNTVSAEAAVPSCTASNSNHSQHLEHTPPKSGCKITTQGPASST
+                     NLVAQDQKMTIFTVNSVVYKAVRAHGQLPGSPNSCSVNDLTHSNLPANSTPNSKSLKS
+                     PSNTVDERNEPLQEDEILGPSKNFNLAAVSPPSTESQIHSCTMLEGLLFPAEYYVRTT
+                     RRMSDCQRKIALEAVIQSHLGVKKKELKKKTKATKAVVLSSEDTDQSESGMLDTSTGQ
+                     SSSGSLSQKLLSPAEVSSPPGPAGKATTPPPGRGHRGKRKSARTSTLGHCQLLFPPCA
+                     ALAVNRSKGKFTKHKCQNRGVVIHDFELPDEDFGLLKLEKLKSCSEKLIESPDSKNCG
+                     ERLPREGNHAALEELQRDSETEGLEEELTVPPGEAYRPGPTLRRQPGSKDLSSSIVLF
+                     TPADTAAPNDSGRPPPSLCSPAFPILGMTPALGSQAAGETLSTEAAQPCSTSQPPLLG
+                     DTNSLVNNSKQCNSSACSPKPDTNLQASGRQGQPACDSDSGPQATPLPVESFTFRENQ
+                     LCGNACLELHEHSTEQTETADRPACDNLNPGNLQLVSELKNPSSSCSVDVSAMWWERA
+                     GAKEPCIVTACEDVVSLWKPLNSLQWEKVHTWHFTEVPVLQIVPVPDVYNLICVALGS
+                     LEIREIRALLCSSGDDSEKQVLLKSGDIKAMLGLTKRRLVSSTGTFCNQQIQIMTFAD
+                     DGSSKDEQLLMPPDETVLTFAEVQGTQEALLGTTTVNSIVIWNLKTGQLLKKMHIDDS
+                     YQASVCHGAYSEKGLLFVVVSQPCAKESQALGSPVFQLLVINPKTAQSVGVLLCSLPQ
+                     GQAGRFLEGDVKDHVAAAVLTSGTIAIWDLLLGHCTALLPPVSDQSWSLVKWSGTDSH
+                     LLAGQKDGNIFIYRYF"
+     CDS             join(214..261,3248..3307,3965..4058,4538..5932,8054..8724,
+                     9273..9344,11766..11927,15626..15711,18511..18672,
+                     19615..19731,20949..21036,21211..21348)
+                     /gene="Palb2"
+                     /note="isoform 2 is encoded by transcript variant 2;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="partner and localizer of BRCA2 isoform 2"
+                     /protein_id="NP_001276771.1"
+                     /db_xref="CCDS:CCDS80797.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+                     /translation="MEELSGKPLSYAEKEKLKEKLAFLKKEYSRTLARLQRAKRAEKA
+                     KNSKKAIEDGVPQPEASSQLSHSESINKGFPCDTLQSNHLDEETGENISQILDVEPQS
+                     FNCKQGKEVLHTPRAGDIQGQLLHSTSSPDGKKEQNTLPGTTKTPWEKSSVSQEKEDY
+                     FDTNSLALLGKHRKGQESISRKNSRTPVSEKTHLLSLRSQIPDPPALVTGIGEGILIP
+                     PSGKSERGIDTLVRGNTVSAEAAVPSCTASNSNHSQHLEHTPPKSGCKITTQGPASST
+                     NLVAQDQKMTIFTVNSVVYKAVRAHGQLPGSPNSCSVNDLTHSNLPANSTPNSKSLKS
+                     PSNTVDERNEPLQEDEILGPSKNFNLAAVSPPSTESQIHSCTMLEGLLFPAEYYVRTT
+                     RRMSDCQRKIALEAVIQSHLGVKKKELKKKTKATKAVVLSSEDTDQSESGMLDTSTGQ
+                     SSSGSLSQKLLSPAEVSSPPGPAGKATTPPPGRGHRGKRKSARTSTLGHCQLLFPPCA
+                     ALAVNRSKGKFTKHKCQNRGVVIHDFELPDEDFGLLKLEKLKSCSEKLIESPDSKNCG
+                     ERLPREGNHAALEELQRDSETEGLEEELTVPPGEAYRPGPTLRRQPGSKDLSSSIVLF
+                     TPADTAAPNDSGRPPPSLCSPAFPILGMTPALGSQAAGETLSTEAAQPCSTSQPPLLG
+                     DTNSLVNNSKQCNSSACSPKPDTNLQASGRQGQPACDSDSGPQATPLPVESFTFRENQ
+                     LCGNACLELHEHSTEQTETADRPACDNLNPGNLQLVSELKNPSSSCSVDVSAMWWERA
+                     GAKEPCIVTACEDVVSLWKPLNSLQWEKVHTWHFTEVPVLQIVPVPDVYNLICVALGS
+                     LEIREIRALLCSSGDDSEKQVLLKSGDIKAMLGLTKRRLVSSTGTFCNQQIQIMTFAD
+                     DGSSKDEQLLMPPDETVLTFAEVQGTQEALLGTTTVNSIVIWNLKTGQLLKKMHIDDS
+                     YQASVCHGAYSEKVPCSPGWPAPVYVLSKMTLNLRFPASTSPVLGFLAQVRLSYNPID
+                     "
+     misc_RNA        join(236..261,3248..3307,4538..5932,8054..8724,9273..9344,
+                     11766..11927,18511..18672,19615..19731,20949..21036,
+                     22151..22299,25253..25719)
+                     /gene="Palb2"
+                     /product="partner and localizer of BRCA2, transcript
+                     variant X7"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 31 ESTs, 21 long SRA reads, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 10 samples with support for all
+                     annotated introns"
+                     /transcript_id="XR_004934089.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+     gene            complement(1362..2016)
+                     /gene="LOC118567503"
+                     /note="60S ribosomal protein L27-like; Derived by
+                     automated computational analysis using gene prediction
+                     method: Gnomon."
+                     /pseudo
+                     /db_xref="GeneID:118567503"
+     CDS             join(5188..5932,8054..8724,9273..9344,11766..11927,
+                     15626..15711,18511..18672,19615..19731,20949..21036,
+                     22151..22299,25253..25463)
+                     /gene="Palb2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="partner and localizer of BRCA2 isoform X1"
+                     /protein_id="XP_011240057.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+                     /translation="MTIFTVNSVVYKAVRAHGQLPGSPNSCSVNDLTHSNLPANSTPN
+                     SKSLKSPSNTVDERNEPLQEDEILGPSKNFNLAAVSPPSTESQIHSCTMLEGLLFPAE
+                     YYVRTTRRMSDCQRKIALEAVIQSHLGVKKKELKKKTKATKAVVLSSEDTDQSESGML
+                     DTSTGQSSSGSLSQKLLSPAEVSSPPGPAGKATTPPPGRGHRGKRKSARTSTLGHCQL
+                     LFPPCAALAVNRSKGKFTKHKCQNRGVVIHDFELPDEDFGLLKLEKLKSCSEKLIESP
+                     DSKNCGERLPREGNHAALEELQRDSETEGLEEELTVPPGEAYRPGPTLRRQPGSKDLS
+                     SSIVLFTPADTAAPNDSGRPPPSLCSPAFPILGMTPALGSQAAGETLSTEAAQPCSTS
+                     QPPLLGDTNSLVNNSKQCNSSACSPKPDTNLQASGRQGQPACDSDSGPQATPLPVESF
+                     TFRENQLCGNACLELHEHSTEQTETADRPACDNLNPGNLQLVSELKNPSSSCSVDVSA
+                     MWWERAGAKEPCIVTACEDVVSLWKPLNSLQWEKVHTWHFTEVPVLQIVPVPDVYNLI
+                     CVALGSLEIREIRALLCSSGDDSEKQVLLKSGDIKAMLGLTKRRLVSSTGTFCNQQIQ
+                     IMTFADDGSSKDEQLLMPPDETVLTFAEVQGTQEALLGTTTVNSIVIWNLKTGQLLKK
+                     MHIDDSYQASVCHGAYSEKGLLFVVVSQPCAKESQALGSPVFQLLVINPKTAQSVGVL
+                     LCSLPQGQAGRFLEGDVKDHVAAAVLTSGTIAIWDLLLGHCTALLPPVSDQSWSLVKW
+                     SGTDSHLLAGQKDGNIFIYRYF"
+     CDS             join(5188..5932,8054..8724,9273..9344,11766..11927,
+                     15626..15711,18511..18672,19615..19731,20949..21036,
+                     21211..21348)
+                     /gene="Palb2"
+                     /note="isoform 3 is encoded by transcript variant 3;
+                     Derived by automated computational analysis using gene
+                     prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="partner and localizer of BRCA2 isoform 3"
+                     /protein_id="NP_001276772.1"
+                     /db_xref="GeneID:233826"
+                     /db_xref="MGI:MGI:3040695"
+                     /translation="MTIFTVNSVVYKAVRAHGQLPGSPNSCSVNDLTHSNLPANSTPN
+                     SKSLKSPSNTVDERNEPLQEDEILGPSKNFNLAAVSPPSTESQIHSCTMLEGLLFPAE
+                     YYVRTTRRMSDCQRKIALEAVIQSHLGVKKKELKKKTKATKAVVLSSEDTDQSESGML
+                     DTSTGQSSSGSLSQKLLSPAEVSSPPGPAGKATTPPPGRGHRGKRKSARTSTLGHCQL
+                     LFPPCAALAVNRSKGKFTKHKCQNRGVVIHDFELPDEDFGLLKLEKLKSCSEKLIESP
+                     DSKNCGERLPREGNHAALEELQRDSETEGLEEELTVPPGEAYRPGPTLRRQPGSKDLS
+                     SSIVLFTPADTAAPNDSGRPPPSLCSPAFPILGMTPALGSQAAGETLSTEAAQPCSTS
+                     QPPLLGDTNSLVNNSKQCNSSACSPKPDTNLQASGRQGQPACDSDSGPQATPLPVESF
+                     TFRENQLCGNACLELHEHSTEQTETADRPACDNLNPGNLQLVSELKNPSSSCSVDVSA
+                     MWWERAGAKEPCIVTACEDVVSLWKPLNSLQWEKVHTWHFTEVPVLQIVPVPDVYNLI
+                     CVALGSLEIREIRALLCSSGDDSEKQVLLKSGDIKAMLGLTKRRLVSSTGTFCNQQIQ
+                     IMTFADDGSSKDEQLLMPPDETVLTFAEVQGTQEALLGTTTVNSIVIWNLKTGQLLKK
+                     MHIDDSYQASVCHGAYSEKVPCSPGWPAPVYVLSKMTLNLRFPASTSPVLGFLAQVRL
+                     SYNPID"
+ORIGIN      
+        1 ccagctgcgc gtgcgcagag cgaacagagg ttttaattgg ccagagcggc tagcgcgcgg
+       61 aacctgtgtg gctcggcagg aacatagtgg gggtgaacta ggtccccgtt cttcccaggg
+      121 gttcctcttg gccctaggaa gccctggctg ggtccccgtg accacaggcc cgaggctgga
+      181 gacggctgct ccttgcgttc ggcttccaac ccgatggaag agctttccgg gaagcccctc
+      241 agctatgcgg agaaggaaaa ggtgcccggg ttgcgggaag ggtgacccag ggctttaggc
+      301 tgggttttca aacctagttc ctgtatccga ggcagtgtcc tcctacctac agcctccacg
+      361 agaagtcact gagacgagcg cgctgctcgg gtggcgaagc ttaaaatgca gacgagccaa
+      421 acccatcttc tagtggcact gcataaatat taggtgtaaa actacatata ggtaaaccta
+      481 gaggccctct tctctcccac tccactccgg ccccgtcaca taaatctttc acgtcacgtc
+      541 aacagcctta tatatataca ttttcgtgtt tgtctgttag ggcttgacct ccaaaatagg
+      601 tttacattgg agaaggggat ggttataacg tgtactctgg ttggttctgc agctggtgtt
+      661 ctccatgttt aagacccacg ttggaacaag atgaggggaa gaaaataata taaatattac
+      721 atataatgaa caggtgttgt gtgtgtgcat acaaatttag tgtagtagtt agaaggagct
+      781 ctcatttctt tcaggctcag aatattattc tcctgcaaga cttaaatatt acttccatgt
+      841 tcttgtgctt tctgtgcaaa attagaattc acattaattt gtcttcctat cctgtcttac
+      901 cttctaaggg tggtaaagat catttacaaa taaacaagat aactcctact tactgataag
+      961 attgaggaca agataacagg ttaagatcag aattactcat gttgtggtgg cccatgacca
+     1021 taatttggtt gctacttaat aactgcagtt tgctgctatt atgaatcaaa atatatatga
+     1081 tatgaaacct ctgtgtgtgt ggggggggtg ttaaatggag cagttataaa tggcagcatc
+     1141 ctggaggaac tgcttattct ctgttcagtt tgcatatctc aaaggaggat gattatataa
+     1201 tagaatctat ttgttagggt tattgtgagt gctaattgag tcattggaca ttaaagtcac
+     1261 aaaattccct aggactaact gaagcacatt atgaaagtat ctgccatttt tattattatg
+     1321 tgtctgagaa tggatgggga ctaaagtgac tttagcacag aagtgctgga gtcccacaaa
+     1381 agtgctgggg aatgaggtgg ggaaagtgct taagaaaagt ttaagttgtt agtaactttt
+     1441 tttcttaatt tttaatgacc aaaacaaaaa catacctaaa agtgaagcct ctggaaaacc
+     1501 cacttgcact tccctgtctt gtatcactcc tcacacttga cattggcttc ctgcctggcc
+     1561 ttgtgtttca aagctgggtc tctgaatgca tccttgttga caacagtttt gcccaagggg
+     1621 atatccagac tcccttgtgg gcatgaggtg gttatagtta taaactttca cagaggactt
+     1681 tatcttggat tgcttggcaa ttttcttcta gcctgtggca gctgtctctt ttgggggata
+     1741 gcagtcaatt ctagccacta gggcatggct gtaagggcgg tctgaggtgc catcatcaat
+     1801 cagtgttctt catgatacgg ttttgcatcc agagtattgt ccagctagga ctagcaccac
+     1861 tttcctgggt ttcatgaact tgcccatttc aacagcagtc agcctgcacc cagcagaaaa
+     1921 gaaggacctt ttagtaactt tcattgtagc ttttttgatg cttttggttt gtggagttgt
+     1981 tcttaagaaa ggatctctta gccaggcatg gtggcacgcg cctttaatcc cagaactcgg
+     2041 gaggcagagg caggcggatt tctgagttcg gggccagcct ggtctacaaa gtgagttcca
+     2101 gaacagccag ggctacagag aaaccttgtc tcaaaaaacc aaaaaaaaaa aaaagaaaag
+     2161 aaaaaaagga tctcgtatcg caagctagtc ttggacttac tatgtctaaa ggatgaatat
+     2221 aggggtccta aatggtggaa agacaagggg ggcacttctg ctaagggaac atttcaacca
+     2281 cagatgctaa ggagacaaag agaatctaaa ctttcaggaa ctagtaattt ggcatagcct
+     2341 aaattaactt atttgcaaaa gctttgtaga aaggcctgct gtgtggctgg acaggaactc
+     2401 agcagcaaca acccctacct ctcactggct ttcttctgtg tattctttag atgtatgcac
+     2461 cggtccacca tggagctttc ctactgtggt gcctagaata attacacata cgctatttcc
+     2521 acaagactag ttccttcctt tagatctagg tgcaagtggt agccctcaga aatgcctccg
+     2581 tgactacact ccctacagga agctaattac ttatatcact tagattagtc taggtactga
+     2641 ttactatgtc aaatcttatc tgtgctcttg atgttatcta cattcctcac tccaagtaaa
+     2701 ttgccttaac caccttgtcc ctcaagcatc agggataact gacactgtgt gtgttactgg
+     2761 gaggtgttgg ttacgactgc aacttcctgg gccagtatta gataaagagc atttattggt
+     2821 tgattgacta tggtaatagc cccctccctg cttctcaaag tgatgggaag atacaggaga
+     2881 aaatggacag catagtgtgt ggtgcagtaa actttgagaa tagcactgag gaacggaaga
+     2941 gtacctaaac tgggtttgag caagaaccta gaagtccatc ctagggaagt aatcctgcaa
+     3001 actgaggctt gaggaatcca caggagctgc tccaagtgac aggaacccat cgtggaaagg
+     3061 tcctgagagg ctgatgcttt gtaggaaccg aggaaaggtt tgagtgggaa aactggcctt
+     3121 cccggcactg atcctgctga gggatgctac agagcaccat atgcactctc gggcctgctg
+     3181 ggcactgtat ccattctctc tgttctcacc tttccactgc tcagaattgt tcttgttttt
+     3241 cttccagttg aaggaaaagc tagcattttt gaaaaaggaa tacagcagga cacttgctcg
+     3301 acttcaggtg agtgaatcat agttggtcaa attaaggtgt tgcacaagct gtgtaaaagg
+     3361 ttttgttggt ctggttttgg tttgaaacag ggcctcacta tgtagtccat tttgacttaa
+     3421 acgcataaac ctgcagtcaa caagatggct caggggctgg tgagatagct cagccggtaa
+     3481 gagcactgac tgctcttcct aaggtcctca gttcaaatct cagcaaccac atggtggctc
+     3541 acaaccatcc gtaatgagat ctgacaccct cttctggtgt gtctgaagac agctacagag
+     3601 tacttatgta taataataaa ttaatcttaa aaaaaaacaa aacaaaaata caaggtggct
+     3661 cagagggtaa agtcacctgc agcctagaga caaagtgacc tcaatgctca ggaataacat
+     3721 ggtgtaagga aagttgtctt ctgatatcta ctaaaaagtg ctaaggcata gaggtattca
+     3781 tgtgtataca cacatacaca ataaataaaa cataataaaa ataaataaac ccacaatcct
+     3841 gctttggcct tcaggatgct aggattatag gtgcgcacca tcacaattaa tgggaagtaa
+     3901 ggctcttgat ggtaataaag cttgaacgaa aattgatttc ttgggctgct tttgttttct
+     3961 ctagcgtgcc aaaagagctg agaaggctaa gaactctaag aaagccatag aagatggtgt
+     4021 gccccagcca gaagcttcct cacagctaag ccactctggt aatcagccgc tcacttacac
+     4081 ttgctttgta ttcactcccc agttggctgc tgttatttct tcacatggaa aagaaacagt
+     4141 agacttctta aataacataa aaattcatgt tatacaattc aagcaatacc cagtgccttc
+     4201 aattggattg ccagtttaat tgcctttttt ctcctcagat tttcagaact atatttagtg
+     4261 ttatagttgg aaaagtaagt ttttaaattt atttttagtt aatgactttt tttttaatgt
+     4321 gatgttttac cacagagcca taaatagctc ttacaatgtt tcccaggctg gccttgtact
+     4381 catggcaggc cttctacctc agcctcaggg ccactctttg actgtaaata tgctgcatga
+     4441 atggctatgt gtatgtttct gtgtgggtct ggttttggtt ctcctgacta cctgggagtg
+     4501 gacttatgag ctcatatgta cttactttcc ccctcagaat ctataaataa aggctttcct
+     4561 tgtgacacat tgcaaagcaa ccatctggat gaggagactg gagaaaacat ctctcagata
+     4621 cttgatgttg aacctcaatc ctttaactgt aaacaaggca aagaagtatt acatacacca
+     4681 agagcaggtg acattcaagg acaacttttg catagcacca gcagccctga tggcaagaaa
+     4741 gagcagaaca cgcttccggg gacaacaaag acgccgtggg agaagtcatc tgtttcacag
+     4801 gagaaggaag attattttga cactaattct ctggcgctcc ttggtaagca tcgaaaaggg
+     4861 caagaatcaa tcagtaggaa gaattctagg actcccgtga gtgaaaagac tcacctttta
+     4921 agtctcaggt ctcagatccc tgaccctcca gcacttgtta caggaattgg agagggtata
+     4981 ttaattccgc catctggcaa atcagaaagg ggaattgata cacttgtgag aggaaatact
+     5041 gtctccgcgg aggctgcagt tccttcatgt actgcgtcaa acagcaatca cagtcagcac
+     5101 cttgagcata cacctcctaa aagtggctgc aaaattacta ctcagggccc ggcttcatcc
+     5161 acaaacctgg tggcacaaga ccaaaaaatg actatattta cagtaaactc agtagtatat
+     5221 aaagctgtgc gtgcccatgg tcagctgcca ggaagtccca attcttgttc tgtaaatgat
+     5281 ctcacgcata gtaacttgcc agcaaatagt accccaaact ctaaatcttt aaaatctccc
+     5341 agtaacactg ttgatgagag aaatgaacct cttcaggaag atgaaattct tggtccatct
+     5401 aagaacttca acctggcagc agtctctcct ccttccacag aaagtcaaat acattcttgt
+     5461 actatgcttg aaggccttct gtttcctgca gaatactatg ttagaacaac ccgtcgtatg
+     5521 tcagattgtc agagaaaaat agctctggaa gctgtaattc aaagtcattt gggtgtcaaa
+     5581 aagaaagagc ttaaaaagaa aaccaaagct actaaggcgg tcgtcctctc cagtgaagac
+     5641 actgaccaga gtgaaagtgg catgctggac acgagcacgg gacagtccag ttcaggaagc
+     5701 ctctctcaga aactgctctc accagctgag gtcagctctc ctccaggacc tgctggaaag
+     5761 gccaccacac cgccacctgg tagaggacac agagggaaac gaaaatcagc ccgcacctcc
+     5821 acactgggtc actgccagct gctttttcct ccttgtgccg cactggctgt taacaggtcc
+     5881 aagggcaaat tcaccaagca taaatgtcag aacagaggcg tggttattca tggtaagagc
+     5941 cgaaggcgag tcagattgcg tttgatgtga cagctcatca tcaccgtgta cctgtaaatt
+     6001 ctgtacagtg ttaacttact gaatcatcac tgccctattc aaggcagcga tcaccctcat
+     6061 cttcagttga ggaaagtaag gcagagggag ggtacagtgt ggcaccgcag gtcagtggtg
+     6121 tgcttgaaaa tctcatagca aggggaatat attgggggct tccttaaact actgcctagt
+     6181 cagttacatc gcagtctcgt ccctgggtag aatctaaggc aagtggtaca ttctccctcc
+     6241 gtagcacccc ataggcccca cagtaaaatg gagtacgtat tgggtaaacc tacagggaaa
+     6301 ctcacagtag gaagtctgag aaacgtgatg agtaacatga ctgttgtctg gaatataaga
+     6361 ttttggaaca gcatgcaaga ctataacaag ctttttactc attttctcag aagttaatca
+     6421 tacctgataa acaacagaaa aagttggatc acttgggctt taagtagaga atgagcaaag
+     6481 gcctgaaata taggtagtgt cattttcacc tgctcaggta cagtgcagca ggagccgcag
+     6541 atagtatgca acttactgtg ctctcataaa actttgtgca tagacaggca gcaaactgtt
+     6601 atataccatt agtcatagat attctttatg agctatgatt cattcattta agaataggaa
+     6661 gcataggcta gagagatggc taagccgtta aaggctaggc tcaaccaaaa atataaggat
+     6721 aggaagcatg gctcttcctt aaccaacaat acaaaaattt aagaagaagg caaggtgtag
+     6781 tattgcatac tattaatcac agctgaggta gaggcgggca ggtttctgag ttctagacca
+     6841 tccagggtta catagtgaaa cctgtctcag aaagaaagaa ggaaaaaagg aaggaaaaaa
+     6901 aaatatatac accaataata acctagaaac ttttgtttgg agacagtgtc tcactatcta
+     6961 gtccaaactg gttttgaact caagatcctt cggccttagc ctcctgagta ctgggctacc
+     7021 ttgcgtaatt agacattttg ttttattctt tgaaatggtc tgttatggtt tattttcttt
+     7081 atgcgtataa gtgttttgcc tgcctgtgtg actgtcccac atgcatgcaa tgctagtggc
+     7141 ggccagaaga ggcgtcagat tcccgagatt agagtgcagg tggccgggag tctccctgtg
+     7201 gatgcttccg tgctcttaac tgttatgcca tctctccagt cccctgccat ggaaaaccct
+     7261 ttctgtttcc attatcaagt ttcttagtca tatgtaaact tggtattaat acagtagatg
+     7321 tttttaaagc atcatttata acaaagataa aaatgcggca aaacctattt taataacaat
+     7381 aaaaacaggc caaagatttt ggtgctgctt ctggttttgg tttgttttaa ggctttctcc
+     7441 tcttccttct tgtcttcctc ctcctcctct tcctcctctc cctcttcttc ctcttcttcc
+     7501 tcctcctctt cctcttcttt cttctgttgc atgtgtgttt gtttgtttgt ttttttaatt
+     7561 tgagacaggg acgcccacac ccgttaggca tctgcttcct gtttactctc cattcccagt
+     7621 ccatagacag ctaccagact actgcattcc caggccatag acagctacca gactactgca
+     7681 aggtatcggg ggagctaggg ttcctgtcac ttcatgtaag tggaattatg tcatgtgtga
+     7741 ctttgcattt tccatgtgtt tgctttcacc tagcattgtg tccatgctgt agaacatgcc
+     7801 ggtgcttcat tcctttctgt ggctgcagag cttgctgatc aaccagtctg gctgaatcag
+     7861 tgagctccag cctcagggga gaccctgtcc taaaaaagga aggtagagag catgtgaaca
+     7921 tacacgtgtg agccgtgcat acgtacatca acataatagc attttattat ttcagagtaa
+     7981 cgataatact ttgattgcac tgtgagaatg cagtcctaac ggtaaggcac cctgtctttt
+     8041 ctcactgtca cagactttga gttacctgat gaagactttg ggcttcttaa acttgaaaaa
+     8101 ttgaagtcct gctcggaaaa actgattgag tctcctgact caaaaaactg tggtgagagg
+     8161 cttcctagag aaggaaacca tgctgctctg gaggaactgc aaagagattc ggagacggag
+     8221 ggcttggaag aggagctcac tgttccacca ggagaagcgt accgtccagg gccaaccctg
+     8281 agaaggcagc cagggagcaa ggacctttct tcatccatag tgcttttcac tcctgcagac
+     8341 actgctgcgc ctaacgacag tggcaggcct cctccctccc tgtgctcacc tgctttcccc
+     8401 atcttaggca tgactccagc tcttggctcc caagcagccg gtgagactct atctactgaa
+     8461 gctgcacagc cttgctctac atcccaacct cctctcttgg gagacacaaa cagtcttgtc
+     8521 aataacagta aacagtgcaa cagttcagcc tgctcaccaa aaccggacac caacctgcaa
+     8581 gcgtcaggta ggcaaggaca acctgcctgt gacagtgact ctggccccca agcaacacct
+     8641 ctacctgttg agtcattcac tttcagagaa aatcagcttt gtggaaatgc atgcctcgag
+     8701 ttacatgaac attccactga acaggtacaa tcgtttcctt tgtgaagttt tctctgaaag
+     8761 gatgaaatgt cttagcgaat ctggacagtg tgatgatctc ctcatggcct ccctgtagag
+     8821 ttttgctatg tttgtttgaa atgtcttcgt tgtaattgtt aagctcattc taggaaagct
+     8881 agaactaatt aaattatgta tttttaataa tttttcttgt ttttatttta catgcattgg
+     8941 tgttttgcct acatgtatgt ctgtgtgaga tgtcagagcc cctggactgg acttacagac
+     9001 agttgtgagc ggccatgcag atgctgggaa taaacctggg tcctctggaa gagcagccag
+     9061 tgctcctaat gctgagccat ctctccagca ccctaaatta tgtattttaa aaatacaaaa
+     9121 tgtattttag aagtcctgct ctttgctcga agggaaatag ttgcatttgc ctttgtgctg
+     9181 ttagaggcag ctgaggtagc tttgctgata agtgagtgag aagggcaaac gttgcataac
+     9241 ataagctcac agtgtgactt ctgtttccac agactgaaac tgcagatcgc cctgcttgtg
+     9301 acaatctaaa cccaggaaac ctacagttgg tttcagagtt aaaggtcagc aaaatgtcct
+     9361 gttactgtgt gccttgtata ttacatgtga aacattgaat gagttggcga agacagagct
+     9421 gtttcatttg tttgtttaat attattaaat atattgagaa acaaagcagg aaagcagatt
+     9481 ttaattcttt tcacagtatt tagttatagt tatgctttga attatctatc tgaaatttat
+     9541 ataccaactt attgccaaga acaatttttt ttttttacca tgagtgtgag gccagtctag
+     9601 gctgcctatg agtttcaagg tcagattggg ctacatagta aactctttct ccagaaaagg
+     9661 aaagtcttag tcctgggttt tgatgcagta aatgtttagc tgccacatct aaaacggttt
+     9721 ccaaacattg ctgattattc ttggaatgga ggtgaggctt tggagtcttt cccagttgaa
+     9781 caccaggagt tgagaggaaa aaaagtcaaa cacacacgag tgttgccgcc cgttacccac
+     9841 agatcagcct ctgagctcca ggctcctttt ctgcagcagg catgtaggaa tagtgcctat
+     9901 gctctgtgtc acgctgttct ggggtcagtt ttatttattt attttattta ttcttctctt
+     9961 atacattatg tcttgccata gtttcccctc cattcctccc agtctccctt ctccccctag
+    10021 atcccctcct ctgtttccct ttagaaaaga gcaggcctcc cagggctatc aactggacat
+    10081 ggcttaacaa gttgtagtaa gactaggctc aaggctggat gaggagaccc agtaggaagt
+    10141 gaggggtccc aagagcaggc aaaagaatct gaggtagccc cccaactcca gctgttaagg
+    10201 agttccacaa gtacaccgag caaacagcca aaacatgtat gcagaggatc tagcccagcc
+    10261 ctaccctata cagaatctgt gactgtcact tcagcccccg agagccccta tgggctccgc
+    10321 tttgttgatt ctgtggccca tggtctcgtt gtgtcctcca cttgggatga ctttaatacc
+    10381 ttaggttcag atggaattta tcattttgtt cacactttca agtttatgtg ttaatggttc
+    10441 agtgttttgt ctgtcagtat atatgcagtt aagtctttcc attctcctat gttttttaat
+    10501 ttgtttgagg caaggtctta tatatatacc aaactggcct tgttctcctg atttagctga
+    10561 ctatggcctt ccacgtggtg ggtgtgctga gattacagta tgttctgtca tgactagact
+    10621 attgggtgca gggaattaaa ccaagggctt gtatgtgaca ggtgagtact ctaccaaatg
+    10681 agcaacaccc cgtcctcctg cctctgtcat gtttgttttg ttcttgatta tattgagctt
+    10741 gttttgtgtt tgagctcggt ctcagagtgt atctaaggct tcccttaaac tcaggatcct
+    10801 ctggcctctt ttttttctgg tacaggcatg cactgccacg cctacctcat tcattgtttt
+    10861 tattttgttc tcattgtttg ttgtgttctt attaactcct tgggctgctt gctctctatt
+    10921 ttactttttc tgacaaatgc tgctttggcc atgctttgtg gtgttggacc cacaggactc
+    10981 tccttgttct aataaaaacg gcatatttgc tgggggtgga gggctgtatt cctttaatcc
+    11041 cagcactggg gacgcagagg caggcacatc tctgtgactt tgaggccagc ctggtctaca
+    11101 gagtgaattc cagaatagct tgggctacag agaaaccctg actctagaaa caaaagagaa
+    11161 agagagagac aaagagagag acagagagac agagagtagg ggtgtggggg tgcacacttg
+    11221 taatcccagc acttgggact tgggaggcca gctggatcta cctttcaagt tctaaaccag
+    11281 cctggatacc aacctgcaag tgtcaggtag gcaaggacaa cctgcctgtg acaatgactc
+    11341 tggcccccaa gcaacatctc taccaagcaa catctctacc tattgagtca ttcattttct
+    11401 ttaattgatg agttgttcac caggatcttt aatttccaaa caagtcagtt cttgtgggct
+    11461 aactttgtgt gtggggtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtgtatg
+    11521 tgtgtgtgtg taaaaccttt tatttagttc tggagttaag atatttttat atcaaatctg
+    11581 agatgatttg ggggttggtt tttctgtgtg tgtgacataa aatgtataca gctctttctt
+    11641 atggcctgca tagaactttc attttatgta gctggtattt cttctcatcg ttgtaactca
+    11701 ttacctttgg tacttagtct tttcattaag cagaaacttt aacataattt ctcttttggg
+    11761 gtcagaatcc ttccagttcc tgctctgtgg atgtgagcgc catgtggtgg gaaagagctg
+    11821 gtgctaagga gccatgtatc gtaactgctt gtgaagatgt agtttctctt tggaaaccct
+    11881 tgaattctct gcagtgggag aaagttcata cctggcactt cacagaggta tgtccaagcc
+    11941 tcagggctga aaggtggatc tgtgtcattt gtgatgtgaa tgaacagctt aacagggagc
+    12001 tgtgactact cattgcaaac tcagattcca gcatttatta tgagtgagac atctcagacg
+    12061 taaagtttac attgagcact gcatgctcac catctagact cgagtgtcac catgacactt
+    12121 tgtttgcttc agcatgcttg ccaggggagt tctacagcag tctattggga agcttgcatc
+    12181 acttacctat tctgataaac tgctgacagt catatttctt tttcaccaaa acactattct
+    12241 attttccata gattatcctt attcctcttc atacacctct aatgtggcta cagtactact
+    12301 gtgtttaaat tactattatt atcttattag tgagtgtttg tgtatgatat gtgagtgtga
+    12361 atgtgtgcat gagtgtggga gtctgagaac agctttcagg aatcattctc gccttccgtt
+    12421 gtgggtgcca gggtttaaac tcaggtctcc aggattgtgt gacaagtatc tttccctgcg
+    12481 gaagcatctt gccagcccct gtttgaggtt tttgaatcca cttaaacatt tatgtgtaca
+    12541 tagttctttc tttggtgaga ggagagtatt gagaaaggtc tcgtgtagcc caggtggcct
+    12601 ggaactctcc atggactgaa gcgtgccctg aactcctgac ccgcccgcct ttccctgtca
+    12661 agtgctggga ctgtaggcac accacgggcc tgggtttgtt ggatactctc cataggtatt
+    12721 tgctcttttt tccccctgaa ctcacagcgt tgagcactgg gctttgcaca cagctgactg
+    12781 ggaatgttta tctgcttagt gactaataaa atttccttcc ttttttccct gatggaaaaa
+    12841 agctaagatc atgctaagct cacgatctgc cattaaactt cacttctagc ccctaaacaa
+    12901 atgaggtttt ctttcttctt ccctccctcc cttcttcctt tctttatgta tatgctgtgt
+    12961 gtaggtggtg aatctatgta ttcaggtttg ggtacatgtg tttgtgggga ccagatgaca
+    13021 gcacatgtgt acatcacatg tcaatcctca ggagctgtct gtcttgattt ttgagacacg
+    13081 gtctctcatt agcttagaac tcactaagta gtctaagctg agtggccatt gagctttaga
+    13141 gatctacctg tctctgcctc tccaaagcta ggattacagg tgcctgctac tccacctggc
+    13201 ttttttacat tggattctgg ggatcagatt ctaatctcac atttacaagg caagcacttt
+    13261 gattattgaa caaacttccc agatttttga cacatttttt aaatagagat ttatccttag
+    13321 gtatgcatat gtatgttggg gagagtatat gcatacgagt gcagatgtcc acagaggcca
+    13381 gaagagcatt ttaatcctct ggagctggag ttgcaagcag ttgtagactg cctcagctgc
+    13441 tgagaaccaa atccaggtcc tctctgagaa ccgtagtgtt cttcagtgct gagcaatgtc
+    13501 cccagttcgc ccagtgccct ttggaggcag tctcactgta tcccatgctg ctgagtcccc
+    13561 agttcaccca gtgccctttg gaggcagtct tactgtatcc catgctgctg agttcccagt
+    13621 tcacccagtg ccctttggag gcagtcttac tgtatcccat gctgctgagt tcccagttca
+    13681 cccagtgccc tttggaggca gtctcactgt atcccatgct gctgagttcc cagttcaccc
+    13741 agtgcccttt ggaggcagtc ttactgtatc ccatgctgct gagttcccag ttcacccagt
+    13801 gccctttgga ggcagtctta ctgtatccca tgctgctgag ttcccagttc acccagtgcc
+    13861 ctttggaggc agtctcactg tatcccatgc tgctgagtcc ccagttcacc cagtgccctt
+    13921 tggaggcagt ctcactgttg cccatgctgc tgagttccca gttcacccag tgccctttgg
+    13981 aggcagtctc actgtatccc atgctgctga gttcccagtt cacccagtgc cctttggagg
+    14041 cagtctcact gttgcccatg ctgctgagtt cccagttcac ccagtgccct ttggaggcag
+    14101 tctcactgta tcccatgctg cgcagactca gcagctcagg tggttcttcc acttgagcta
+    14161 cttgctccct agagtcattt ttaaatggca ccttaatgtt catctgcttg ctagaatgta
+    14221 ctagttctgg gttgttaggg gcataaattg cactaaacaa gcatttattg cttaagtgta
+    14281 tagtcctagc tacaggaggc tgaggcagga gtgcttgtgg ccagtacttt gagaccaggc
+    14341 ttgccaacac agggagaccc tacctgaaaa aaaaagatta aagtaaatat taacctaact
+    14401 cttttttttt ttttaattta tctatttatt tcatgtatgt gagtacattg cactgtcttc
+    14461 agagacacca gaagagggca ttggattatt ggattcccat tacagatggt tgtgagtcac
+    14521 catgtagttg ctgggaattg aactcaggac ctctggaaga gcagtcagtc tctccagctc
+    14581 cctagcctaa ctcttttttt tttttttttt tttttttttt tttggttttt cgagacaggg
+    14641 tttctctgtg tagccctgga tgtcctggaa ctcactttgt agaccaggtt gacctggaac
+    14701 tcagaaatcc gcctgcctct gcctcctgag tgctgggatt aaaggcgtgc gccaccactg
+    14761 cccagctttt ttaagatttt aactcttttt ttttttttta agatttattt atttatttat
+    14821 tatatgtaag tacactgtag ctgtcttcag acactgcaga agagggcgtc agatctcatt
+    14881 acggatggtt gtgagccacc atgtggttgc tgggatttaa acttcagacc cttggaagag
+    14941 cagttgggtg ctcttaccca ctgagccatc tcaccagccc cagattttaa ctcttaacac
+    15001 agatttctat ttaattgttt atttagcagt gggggtgtgg ggaggaatga ttgtggtctc
+    15061 atagtgtagc cttcagtttg tgaccccccg ctatcttagc tttcatagtc ctggactttc
+    15121 aggtccacac taccatatcc agctcatgca attagactag agcttgtaag aagatttttc
+    15181 tgagggcccg ggtggggtgg cacatgcctt taatccctac agttggtaag cgtaggcaga
+    15241 cagtgaggta catattgcgt tcaggtcagt cagcaatatg taatgagaca ctatctcaga
+    15301 aaagaaaaac cagaaaccaa aacaaaacac caaaaggcat gagaggcaga agaaaatttt
+    15361 tctgaatctt cacacttcgc acatagtcct aattccataa gaattcaaga gaatgtgatt
+    15421 agcaggctca ggcctgtaat ctcagctcct cagaaggctg aggcaggaag atcacaggtt
+    15481 cagggccaac ctacacaact taatatgacc ccatcacaaa ataaaaaata aaaagaaagc
+    15541 taggagtaac ataaaagagt gataaaattt ttcctgaaat attcatgaaa ctataagtga
+    15601 ctgaatataa ctttctttta tgtaggttcc agtattacaa atagttccag tgcctgatgt
+    15661 ttacaatctt atatgtgtag ctttgggaag tttggaaatc agagaaatca ggtacgcagt
+    15721 ttctgagaac tccacatgtg cttgccctct ctctctctct ctctctctct ctctctctcg
+    15781 ctctcgctct cgctctcgct ctcgctctca ctctcgctct tgctctcgct ctgacactcc
+    15841 accatctttg ttcttttcag ttattctgag tacacattat aactcacact tcagtattaa
+    15901 aagcagggca tcttaaaaga atctgagttt ctggtatgca aagattattc ggtgtttaag
+    15961 gctacttgct gcacttaaag aggatctatc tgggttgggt tcccagcacc tacaataggt
+    16021 ggcacacaat tactttcaac tccagttcta gggaatatca caccctgtgt tagttaggga
+    16081 tttactgctg tgaacagaca ccatgagcaa ggcaactctt cataaggaca acatttaatt
+    16141 gggttcagat attcagtcca ttatcatcaa ggcaggagca tggcagcatc tagacagaca
+    16201 tggtgctaga ggagctgaga ttctacatct tcatctgaag gctgctagca gaatactgac
+    16261 ttctaagatg agggccctaa agcccacacc cacagtgaca cacttcctcc aaccaggaca
+    16321 cacctattcc agcagggcca caccttctaa tagtgttact ccctgggaca agcatataca
+    16381 aaccatcaca caccctcttc tggcctctcc tggcacctgc acatacatat tgtacacata
+    16441 tacacttaag acacagccat gacataaaat aagtaaatct tttttccttt ttttggtttt
+    16501 tcgagacagg gtttctctgt gcagtcctag ctgtcctgga actcactctg tacaccaggc
+    16561 tggcctcaaa ctcagaaatc cgcctgcctc tgcctcccaa gtgctgggat taaaggtgtg
+    16621 cgccaccacc gcccagcaaa ataagtaaat cttttctggg aaaaaaacaa aacaaaacat
+    16681 taatttaggg ccaatcatgg tgacatacta taatcctaga atttgggagg ctgaaatggg
+    16741 aggattaaga gttcaaggtc atcattacac ttagctgtat cagaccctca agtcctgcat
+    16801 aagaccttac tcaaaacacg gaaagggttg aaaaggtgtc tcagtagtta acagagctta
+    16861 ctaccctcag agaagaccaa catggagctc acagacatga ccatcttctg ttctctgtgg
+    16921 cctcatgtat gtgtgttgaa tacataaact catgaagcca tgtacacata cacataaaat
+    16981 ttttttttaa aaatatctca ggggactgga aagatgactc agcagttaag agtgcatact
+    17041 gttcttacag gaggacccag gtttagtttt caataccctt gtagggcagc ttaacagcca
+    17101 cttgtaactc tagcttgagg agatctgaca tcatcttctg gcttctatag acactacact
+    17161 caggagcaca tacccataca caggcaccca aatatatgta attgaaaata aaagtagggg
+    17221 ctggtgagat ggctcagtgg gtaagagcac ccgactgctc ttccgaaggt ccagagttca
+    17281 aatcccagca accacatggt ggctcacaac catccgtaac aagatctgac tccctcttct
+    17341 ggtgtgtctg aagacagcta cagtgtactt acatataata ataaataaat ctttaaaaaa
+    17401 aaaaaaaaaa aaaaagaaaa gaaaagtaat ttattttaat catagaagaa tttgaatttt
+    17461 gatacaggca tggtggcaca ttgagggaga aatgttaagc cagcctgggt tccatgaatc
+    17521 tctgtttcaa aaatttaatc tagctgagca tgatagcaca cgcttttaat tcctgtgcat
+    17581 aggagacaga gacaagcaaa tctctgagtt tggggctggg ggaggggcag ctgctatctc
+    17641 tgagacagaa agatgcagga cagcatttca tacgtaacca tttgaatgtt tctgctgttt
+    17701 ttagaatttg gaaccctggt ttgggagggg gggtgcctgg gaagtggggt gaggagattc
+    17761 catttgtcca gtagattgca cgctagcgtg gggggagggg gtgccagcag gcagctgctg
+    17821 tgggaattga tgacaaccag cccagattgt ctgggtgctc actcagaggg gctccaggag
+    17881 cctgtgccgt gaaaggacca aggtttgtgc ctggccagtt ccgtccgatg aggcctctcc
+    17941 tctctgttct gtccccttcc cacccacctg gtctgggcta gtgcccgttt ttaaccctac
+    18001 ccattgatca tttcaagaaa cctctggtta ccgtgcgtca cccagacaag acatgctcct
+    18061 caaattcaac ttgtatattt ggcagattaa acgacaacat cgtaaaaaaa aaaaaaaaaa
+    18121 aaaaaaaaaa tctgagtttg aggccagcct ggtctacata gcaacttcaa agcctgccag
+    18181 agctacgtag ggagacctta tctagtgcct ggagagatgg cttagcagtt cagaacacaa
+    18241 cacccataga acagtccggc tgcccttcag acacctgtgt tccatccagc ttcaagagat
+    18301 cctaagcctt ttaggcttca ggttatagat agaacccaca tccacatgtt atgcctaccc
+    18361 ttacacacac acacacaaaa taaaaaatcc ttaaagaaat gaaaccatgt gtagactgac
+    18421 atctgtgact gaagttgcaa tttaaatgta tacttagtgc ctgattgccc gctgcttact
+    18481 cctggctcct cggatttgtg tttggtgtag ggcgttgctg tgctcttctg gtgatgacag
+    18541 tgaaaagcaa gtcctcctga aatctggaga tataaaagct atgcttggcc tgacaaagcg
+    18601 gaggctagtt agtagcactg ggaccttttg caatcaacaa atacaaatca tgacatttgc
+    18661 tgacgacgga aggtaagaaa agcattgatt ggtcttcacc gttctgtaaa agaggcattt
+    18721 tacctcaggc ttcagggaaa gtggatgcct aggaacctga tctctgctgt gggtgtggtc
+    18781 gcaagcttgg ccttaatgcc acattgcagc caatgagcag gttaaagagg tggaagccag
+    18841 ggaagccaat ggagaagaaa ggctcagtaa atgtagttgg ttctctctct ggctttgttt
+    18901 agaattcctg tgtgtctctt gaatattaga agaaccctgt tctatgttgt ccattgcttt
+    18961 tttttcccgt ctagatgcta gcaacctgca aacatgcatt tctagctcta agctgtttct
+    19021 catgctgtag acctgcatgc ttgtttcatg gtcacctctc aggtccttcc gggtcagcat
+    19081 gtgataacct gagctaaaac gttgtctcct tttgtcatgt cctgtacttt cccaggttct
+    19141 ttcaatttag tcctgttact gagctatacc tccgtctgtt ttctttactg ttctttgtcc
+    19201 ttcctcatag caggggaggg aacttatttg tcataattag ccctgaacca acatggcagt
+    19261 ctgggcaaga gtccagtgat aagtcttcta gttaaaactt tattctggta ttcattgtcg
+    19321 gtttatttgt ttttggtttt gtttttggtt ttaatttcat ttaaagtaaa taaaataatt
+    19381 taataaaata aaagatttta ttttatgtat ataagtgtct catctgcatg tacacctgca
+    19441 tgctagaagg tggcatcaga tgacatcgta gatggtttct gggaattaaa ctcaggacct
+    19501 ctggaagagc agctctcatt tattgctgtt ttattcatag tctagtaatg tatagaagga
+    19561 ctacttagga actgtttagg ctcaaaagtg attttcagta ctgttttaat acagcagcaa
+    19621 agatgaacag cttttgatgc ctcctgatga gactgtactg acttttgctg aagtccaagg
+    19681 gacgcaggaa gctctgcttg gtactaccac tgtgaacagc attgtgatct ggtgagcttt
+    19741 cgctctatat gtgagtgtgc gtctgtttca tagttgtgaa agttaggcat gctgggcatg
+    19801 ggcagggtat ggagctgaat acctgaaatc ctataagcag caagctgtgg cgaggggctg
+    19861 acagagccat acacagctgg atatgtggaa agagagagac ggcagacatg actgtggttt
+    19921 tctcttttcc actgttagaa gctttgtcct tgtcttgcca agaaagtgag cctagatacg
+    19981 tgaaaaagaa catcttagaa atgtttctaa gatgcagagt caggggctgg ctcagcagtt
+    20041 aagagcactg acctctcttc cagaggtcct gagttcaatt cccagcaact tgatggctta
+    20101 caaccatctg taacactaat tccaagggat ctgatgtctt cttctgccct ccatgggcac
+    20161 caaccacata catggtgtac agatatacgt gcaggcaaaa catccatact ccaacataat
+    20221 attcagtaaa tcttataaac agacaagcag gcaggcctat gtgagtgtgt aagcaggcaa
+    20281 gcatatgtga atgtgtaagt tgagatttag gtggcaactg ggaagacaag tcataatagt
+    20341 aagtggtata acttgtagct ggcttcattc ccagcacagg gagatggtgg aaaatattga
+    20401 gtagaatgtg aggaggttat ccacagtggt atagcagagt ccacccaagg ctaaactatc
+    20461 aagttcaatt tttgatcaaa ttaaactgcc attacacttt tactaagggt gtgtaaggta
+    20521 ctaggcatgg tggtgcatgt cctttatctt agcactcagg aggtagaggc aggttgttct
+    20581 ctgagagtgt gaggccagct tggtctgcat aaggagttct agacctagta agaccttatc
+    20641 tcaaacaaga agtagtagta gcagtgtacg aagtgtgaca aaccaaaagt acagtgttct
+    20701 gtcccttaat gatttcctgt tattacctcc caaaatagtt ggtaacaaat taagaacatt
+    20761 ctatgtgaag cagacatgtg gtgcaggcct gccacaccag cactgagagg ctgtggctag
+    20821 agcagcacaa gtttgaggct cgctcaggct acacagcaat accttatctt taaaaggaaa
+    20881 agacgtataa tacatgaaag tcattttact ggaaaaacac aattttctca cttattttga
+    20941 tgtctaagga atttaaaaac cggccagctc ctgaagaaga tgcacattga tgactcctac
+    21001 caggcttcgg tctgtcacgg agcctattct gagaaggtga gtactgaccc agggctgtgt
+    21061 ggtggttatt tgtgttaccc attggtctca ccgcccaggg tgggcagtaa cagtggcagt
+    21121 cagcatgtcc tcctgttgtc ttttcttgca acattggatg gcaatgtgct ttgactttgc
+    21181 tttgctttgc ttccttttgt ttggagacag gttccctgta gcccaggctg gcctgcacct
+    21241 gtctatgtcc tgagtaagat gaccttgaac ttacgattcc ctgcttctac ctctccagtg
+    21301 ctgggctttc tggcacaagt caggctgagc tacaatccta ttgactgagc taccttccta
+    21361 gcctgtttgt tcttttttga gatttataaa taaaactgtt aatgcagaac gattgcttgt
+    21421 cgaattttat atctgtatga cttaaagacc cacttccaaa ctatgatttt tgtcctaaaa
+    21481 gtattatccc tgatatcaaa cttgacacct aactacttaa caaagaaaaa gggagaagaa
+    21541 atcatgatat agccctggtt ggtctagaac tcagtatgta gctcaggcta tcacaaaatc
+    21601 ttgagcctag cttttataat ctattacaaa agttgaatct gtttctacaa tgtacctgtt
+    21661 tgtttgtttg tttgtttgtt tccatttaag taattagcat atttggtata tactaattac
+    21721 ttctactcac tgaccttcaa agcagggaga gggcttatgt ggctttttcc atacaaacca
+    21781 cagacgatgg ttcctttttg tcactttatg ggaattctga ggtttaattt acaaatgagt
+    21841 acttccactc tgaggtttct tgtactcgtc tctttgacat ctgtccttgt accagccttt
+    21901 tcccagtgga tggcacaagg tgtatctaaa gtataggaac ctgaggagtc tgctggactc
+    21961 atgatcatca ggcctggcaa gaatccagac actcggtgtg gcgatcacct caactgctgc
+    22021 tgtgtgatga agggaaggca gtggttatat cctgcatgtt gaagagtctg tccatcattc
+    22081 cttctgcgct gcttttgtca ccaccgccaa tactcttgac agttgggtga ttgtttctct
+    22141 cctgcaacag gggctcctgt ttgttgttgt gagtcaacct tgtgccaaag agagccaggc
+    22201 ccttggaagc cctgtgttcc agctgctggt gattaaccct aagacggccc agagtgtggg
+    22261 tgttctgctg tgttcccttc ctcaggggca ggctggaagg taagtgtgtg tgtgctgctc
+    22321 ttcaagggtg aggtgatttt gaaggcgcta tgctgggtac ttttgtgtca ctagagtcta
+    22381 tagaaaacat gagatgctaa aggctattgt gttacagagg ttgctcactg gtagaggttt
+    22441 tttgttttgt tttttaatag aaaacattct tttttgttgt tgttttgttt gtttgttttt
+    22501 caacaggatt tctctgtgta gccctgggta ttctggaact cagagattcc tgcctctgcc
+    22561 tcccagtgct cagattaaag ccaccaccac ctggcttaaa ataattttct taaggggctg
+    22621 aagagatggc tcagtggtta agagcactga ctgctcttcc agtggaccgg agttcaattc
+    22681 tcagcaacca catggtggct cacatccatc tatataataa gatcctatgc cctcttctgg
+    22741 tgtgtctgaa gacaactaca gtatattcat ataaataaaa tctttaaaaa aattttctcc
+    22801 ctgggcgtgg tggcgcatac ctttaatccc agcactccgg aggcagaggc aggcagattt
+    22861 ctgagttcaa ggtcagcctg gtctacagag tcagttccag gacagccagg gctacacaga
+    22921 gaaaccctgt ctgggaaaaa aaaaaaaaga agaagaagaa gaagagtgca gggccagagg
+    22981 ttttggatcc ctagagctgg agctacaggc atttgtgagc cacctgatat gggggctgga
+    23041 aactgtacga actcaggccc tctacaagag caactactga actctcttca gcaccctaaa
+    23101 gacattttct tcaaggaaaa aacaggatct gaatatatag aaggatggat cacgaataat
+    23161 cagtgcatgg ctactactgc agaggaccat gttagacagc tcataactgc atgacagctc
+    23221 caaaggatgt ttctggcctc tgtggacacc agtagtcaca tgcacatacg tacacacaga
+    23281 cacatacaca tacttaaaaa taaatatatt ttttaaaaag actaaaggcc ttttatgtga
+    23341 actttaggaa tttttttcca atataaagta tagtgaaaat tctggaatat tatacatttt
+    23401 cattttaatc ccaggtgtgg tgctatgggg ctgctttgca gcagctgact atgatttgcc
+    23461 tcatgctctc tggcagaggc atggttttgc cagctgcaga tcgtttctcc aagtgtgtga
+    23521 tgtttagaat tctgtggtct tgtcagagga tatagaactg ccagagtcct gagagaaggg
+    23581 tctggtgggc ccgttggtag gtggatgtta ttggttgcag tttgtcaagt agtcaagtgt
+    23641 gaagaactga aaagaagaaa ttagatatcc taactgtgaa gatcaaactt gccccaaggt
+    23701 gctcgatgcc cctagtcagc aggaattagt ctaatgataa catcgtccct tcccttttcc
+    23761 tttcctctcc tctcctttcc cctctatctc ctacctagtg ttgggaggtg aaagggaaga
+    23821 agaggattgg tgaagggtgg aaggagagac ccccacaaag tagcccaagt ccagttagag
+    23881 gctcgaagat gtcaagattc cctggaactg gagttggggt gattgtgagc tgccatttgg
+    23941 gtgttgggaa tcaaaccata ttcctgtgga agagcagccc aagcagcgct cttaactgca
+    24001 ggccacctct caacccccac acctccaagc tttctaatat acctcgccat cgtccttaca
+    24061 atagcaccat gaagtaaaat gtctccctgc cctcatccgt tgagaaggtt aatttactca
+    24121 gggccacaca acccttgtct ttggaattta agccacgtgc agactacaga gcctttgctt
+    24181 tttggtttag gtttttgctt atttgttaca ttttttaagc gggtgtgagg tctgaggaca
+    24241 acttgtggga acctgttctc tcctcaccat gtgggtccca taggtcaagt acacataaac
+    24301 aaacacatag acaataaata agtcagtttc ttttttctgt tctttctttc tttctctctg
+    24361 tctttctttt ttgagaaaag aagtaagaaa agattgggac tatacttgaa tggtagaatg
+    24421 tggcatggtg ttatgctagt gggttctagg gattcctgag gcagcctcag gaatttgggg
+    24481 gagagtgtgt ttgctgtgct tcaggtgaac tttggataat ggtgacaaac ctgggtaata
+    24541 agtttccagg catggtacga ttcagggcta gagtcttata catagagatc agagggagag
+    24601 gggaggaaag gagggaggag gggcagacag agacaggtgg acagagaaag agagccagag
+    24661 ccaggcagcg gtggcgcacg cctttaatcc cagcaatcgg gaggcagagg caggtagatt
+    24721 tctgagttcg aggccagcct ggtctacaaa gtgagtttca ggacagccag ggctatacag
+    24781 agaagtcgag agagagagag agagagaaat cgagagagag aaacactggc agagcaaggt
+    24841 ccctcaggtt gactgagtgt ggttagcagg tagagggaga gagcatgtgt gagccagtgc
+    24901 tgggcaatgt aagatgcagc ctctggactg tgctgtgcag gccagcagtc ctcttgtcca
+    24961 ggcagtcaca gtggctggaa gcttggtttt ggctgattct tgggagcatt ttttttcctt
+    25021 cttcaagctt taaatttagt gttacattta attaattaat atattttgtt ggaggcatgg
+    25081 gtcgtggaag tgtatggtag acagaaatca tctttcagta gtcactttcc tcctgtgagt
+    25141 cctggggatt aaacataggt gtttagtgaa gtgcctttcc tgcagagccg tttctgagtc
+    25201 cttcttgaag cctttgatgt gatatctgaa tgtctcttct tctttgtctc aggttcctgg
+    25261 aaggggatgt gaaagatcat gtcgcagcag cagtcctgac ttctgggaca attgccattt
+    25321 gggatttgct tctgggtcac tgcacggctc tcctcccacc tgtctctgac cagagttggt
+    25381 ctttggttaa atggtcgggt acagattctc acttgctagc tggacaaaag gatggaaata
+    25441 tatttatata ccgatacttt taagaggcaa atagtttgga ggttttttgt tttttgtttt
+    25501 tgtttttgtt ttttttaaga atacaatatc tgaatgacat ttaatgtgat tacttgaatg
+    25561 tatttcccac acacttaatt ttcttctgat agtgactact gactgaacat ttgtttatag
+    25621 ttattttcag gttaatagtt ttaagtcatt ctttgcacat ttgctattac agctgtacat
+    25681 aaccagtgaa tgttaataaa tatttatttt gatacattc
+//
+
