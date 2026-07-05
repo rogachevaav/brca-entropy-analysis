@@ -1,0 +1,25 @@
+gene,species,region_type,n,sample_size_flag,spearman_rho,p_value,status
+BARD1,Homo sapiens,exon,3,small_sample,1.0,0.0,ok
+BARD1,Homo sapiens,intron,10,adequate,0.6484848484848483,0.04254012768448945,ok
+BARD1,Mus musculus,exon,3,small_sample,1.0,0.0,ok
+BARD1,Mus musculus,intron,10,adequate,0.5878787878787878,0.07387770688865801,ok
+BARD1,Pan troglodytes,exon,3,small_sample,1.0,0.0,ok
+BARD1,Pan troglodytes,intron,10,adequate,0.6848484848484848,0.02888279750673276,ok
+BRCA1,Homo sapiens,exon,3,small_sample,0.5,0.6666666666666667,ok
+BRCA1,Homo sapiens,intron,22,adequate,0.453416149068323,0.03406146890449721,ok
+BRCA1,Mus musculus,exon,3,small_sample,0.5,0.6666666666666667,ok
+BRCA1,Mus musculus,intron,22,adequate,0.5618294748729532,0.006505942387462352,ok
+BRCA1,Pan troglodytes,exon,2,small_sample,,,insufficient_observations
+BRCA1,Pan troglodytes,intron,21,adequate,0.5974025974025974,0.004240874117222789,ok
+BRCA2,Homo sapiens,exon,5,adequate,-0.19999999999999998,0.747060078104662,ok
+BRCA2,Homo sapiens,intron,22,adequate,0.5482778091473745,0.008243854138375764,ok
+BRCA2,Mus musculus,exon,6,adequate,-0.028571428571428574,0.9571545189504373,ok
+BRCA2,Mus musculus,intron,21,adequate,0.4506493506493507,0.040345304527043505,ok
+BRCA2,Pan troglodytes,exon,5,adequate,-0.19999999999999998,0.747060078104662,ok
+BRCA2,Pan troglodytes,intron,22,adequate,0.5381140598531904,0.00978453856522305,ok
+PALB2,Homo sapiens,exon,3,small_sample,-1.0,0.0,ok
+PALB2,Homo sapiens,intron,11,adequate,0.6000000000000001,0.05100326070695074,ok
+PALB2,Mus musculus,exon,3,small_sample,0.5,0.6666666666666667,ok
+PALB2,Mus musculus,intron,12,adequate,0.6573426573426573,0.020185498509854096,ok
+PALB2,Pan troglodytes,exon,3,small_sample,-1.0,0.0,ok
+PALB2,Pan troglodytes,intron,12,adequate,0.5944055944055945,0.04152149441031855,ok
